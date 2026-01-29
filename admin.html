@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Администрация - Инфокиоск ШЛ №59</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ru-mode">
+    <header>
+        <div class="logo-area">
+            <div class="logo-img">№59</div>
+            <div><div class="school-name">Школа-лицей №59</div><div class="clock-box" id="clock">00:00</div></div>
+        </div>
+        <div class="lang-btns"><button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button><button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button></div>
+    </header>
+    <div class="main-container">
+        <div class="page-header">
+            <a href="about.html" class="nav-btn"><span>←</span> <span class="lang-ru">Назад</span><span class="lang-kz">Артқа</span></a>
+            <div class="section-title"><span class="lang-ru">Администрация</span><span class="lang-kz">Әкімшілік</span></div>
+            <a href="index.html" class="nav-btn"><span class="lang-ru">Басты бет</span><span class="lang-kz">Басты бет</span> <span>🏠</span></a>
+        </div>
+        <div class="content-view">
+            <div class="lang-ru">
+                <h1>Администрация</h1>
+                <table>
+                    <thead><tr><th>Должность</th><th>ФИО</th></tr></thead>
+                    <tbody>
+                        <tr><td>Директор</td><td>Султанова Г.А.</td></tr>
+                        <tr><td>Заместитель директора по учебной работе</td><td>Ахметова Б.К.</td></tr>
+                        <tr><td>Заместитель директора по воспитательной работе</td><td>Иванова М.С.</td></tr>
+                        <tr><td>Заместитель директора по профильному обучению</td><td>Петров Е.Н.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="lang-kz">
+                <h1>Әкімшілік</h1>
+                <table>
+                    <thead><tr><th>Лауазымы</th><th>Аты-жөні</th></tr></thead>
+                    <tbody>
+                        <tr><td>Директор</td><td>Султанова Г.А.</td></tr>
+                        <tr><td>Оқу ісі жөніндегі директордың орынбасары</td><td>Ахметова Б.К.</td></tr>
+                        <tr><td>Тәрбие ісі жөніндегі директордың орынбасары</td><td>Иванова М.С.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

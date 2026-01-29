@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание уроков - Инфокиоск ШЛ №59</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ru-mode">
+    <header>
+        <div class="logo-area">
+            <div class="logo-img">№59</div>
+            <div><div class="school-name">Школа-лицей №59</div><div class="clock-box" id="clock">00:00</div></div>
+        </div>
+        <div class="lang-btns"><button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button><button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button></div>
+    </header>
+    <div class="main-container">
+        <div class="page-header">
+            <a href="education.html" class="nav-btn"><span>←</span> <span class="lang-ru">Назад</span><span class="lang-kz">Артқа</span></a>
+            <div class="section-title"><span class="lang-ru">Расписание уроков</span><span class="lang-kz">Сабақ кестесі</span></div>
+            <a href="index.html" class="nav-btn"><span class="lang-ru">Басты бет</span><span class="lang-kz">Басты бет</span> <span>🏠</span></a>
+        </div>
+        <div class="content-view">
+            <h1><span class="lang-ru">Расписание уроков</span><span class="lang-kz">Сабақ кестесі</span></h1>
+            <p><span class="lang-ru">Здесь будет интерактивный выбор класса и отображение расписания...</span><span class="lang-kz">Мұнда сыныпты интерактивті таңдау және кестені көрсету болады...</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

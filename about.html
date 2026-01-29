@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О школе - Инфокиоск ШЛ №59</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ru-mode">
+
+    <header>
+        <div class="logo-area">
+            <div class="logo-img">№59</div>
+            <div>
+                <div class="school-name">Школа-лицей №59</div>
+                <div class="clock-box" id="clock">00:00</div>
+            </div>
+        </div>
+        <div class="lang-btns">
+            <button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button>
+            <button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <!-- Навигационная панель -->
+        <div class="page-header">
+            <a href="index.html" class="nav-btn">
+                <span>←</span> 
+                <span class="lang-ru">Назад</span>
+                <span class="lang-kz">Артқа</span>
+            </a>
+            <div class="section-title">
+                <span class="lang-ru">О школе</span>
+                <span class="lang-kz">Мектеп туралы</span>
+            </div>
+            <a href="index.html" class="nav-btn">
+                <span class="lang-ru">Басты бет</span>
+                <span class="lang-kz">Басты бет</span>
+                 <span>🏠</span>
+            </a>
+        </div>
+
+        <!-- Динамическая область контента -->
+        <div class="grid-container">
+            <a href="passport.html" class="card">
+                <div class="icon">📄</div>
+                <div class="title">
+                    <span class="lang-ru">Паспорт школы</span>
+                    <span class="lang-kz">Мектеп паспорты</span>
+                </div>
+            </a>
+             <a href="admin.html" class="card">
+                <div class="icon">👤</div>
+                <div class="title">
+                    <span class="lang-ru">Администрация</span>
+                    <span class="lang-kz">Әкімшілік</span>
+                </div>
+            </a>
+             <a href="digital.html" class="card">
+                <div class="icon">📹</div>
+                <div class="title">
+                    <span class="lang-ru">Цифровизация</span>
+                    <span class="lang-kz">Цифрландыру</span>
+                </div>
+            </a>
+             <a href="parliament.html" class="card">
+                <div class="icon">🗣️</div>
+                <div class="title">
+                    <span class="lang-ru">Школьный парламент</span>
+                    <span class="lang-kz">Мектеп парламенті</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
