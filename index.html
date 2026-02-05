@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инфокиоск Школа-лицей №59</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body class="ru-mode">
 
     <header>
@@ -24,7 +27,7 @@
 
     <div class="main-container">
         <!-- Навигационная панель -->
-        <div class="page-header" style="justify-content: center;">
+        <div class="page-header">
             <div class="section-title" id="page-title">
                 <span class="lang-ru">Главное меню</span>
                 <span class="lang-kz">Басты мәзір</span>
@@ -40,21 +43,21 @@
                     <span class="lang-kz">Мектеп туралы</span>
                 </div>
             </a>
-             <a href="education.html" class="card">
+            <a href="education.html" class="card">
                 <div class="icon">📚</div>
                 <div class="title">
                     <span class="lang-ru">Учебный процесс</span>
                     <span class="lang-kz">Оқу процесі</span>
                 </div>
             </a>
-             <a href="extracurricular.html" class="card">
+            <a href="extracurricular.html" class="card">
                 <div class="icon">⚽</div>
                 <div class="title">
                     <span class="lang-ru">Внеучебная деятельность</span>
                     <span class="lang-kz">Сабақтан тыс қызмет</span>
                 </div>
             </a>
-             <a href="parents.html" class="card">
+            <a href="parents.html" class="card">
                 <div class="icon">👪</div>
                 <div class="title">
                     <span class="lang-ru">Для родителей</span>
@@ -62,8 +65,17 @@
                 </div>
             </a>
         </div>
+
+        <!-- Bottom Nav for Home? Not strictly needed but could be useful for context or hidden admin -->
+        <div class="bottom-nav" style="justify-content: center;">
+            <div style="font-size: 1.2rem; color: var(--text-secondary); opacity: 0.7;">
+                <span class="lang-ru">Добро пожаловать | Версия 1.0</span>
+                <span class="lang-kz">Қош келдіңіздер | Нұсқа 1.0</span>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
