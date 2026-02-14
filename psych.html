@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Психологическая поддержка - Инфокиоск ШЛ №59</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body class="ru-mode">
+
     <header>
         <div class="logo-area">
             <div class="logo-img">№59</div>
-            <div><div class="school-name">Школа-лицей №59</div><div class="clock-box" id="clock">00:00</div></div>
+            <div>
+                <div class="school-name">Школа-лицей №59</div>
+                <div class="clock-box" id="clock">00:00</div>
+            </div>
         </div>
-        <div class="lang-btns"><button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button><button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button></div>
+        <div class="lang-btns">
+            <button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button>
+            <button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button>
+        </div>
     </header>
+
     <div class="main-container">
         <div class="page-header">
-            <a href="parents.html" class="nav-btn"><span>←</span> <span class="lang-ru">Назад</span><span class="lang-kz">Артқа</span></a>
-            <div class="section-title"><span class="lang-ru">Психологическая поддержка</span><span class="lang-kz">Психологиялық қолдау</span></div>
-            <a href="index.html" class="nav-btn"><span class="lang-ru">Басты бет</span><span class="lang-kz">Басты бет</span> <span>🏠</span></a>
+            <div class="section-title">
+                <span class="lang-ru">Психологическая поддержка</span>
+                <span class="lang-kz">Психологиялық қолдау</span>
+            </div>
         </div>
+
         <div class="content-view">
-            <h1><span class="lang-ru">Психологическая поддержка</span><span class="lang-kz">Психологиялық қолдау</span></h1>
-            <p><span class="lang-ru">Контакты социальных педагогов и психологов...</span><span class="lang-kz">Әлеуметтік педагогтар мен психологтардың байланыстары...</span></p>
+            <div class="lang-ru">
+                <h1>Психологическая поддержка</h1>
+                <p>В нашей школе работают квалифицированные психологи и социальные педагоги, готовые оказать поддержку учащимся и родителям.</p>
+                <h2>Контакты</h2>
+                <p>Вы можете обратиться в кабинет психологической разгрузки (каб. 302) в рабочие часы школы.</p>
+            </div>
+            <div class="lang-kz">
+                <h1>Психологиялық қолдау</h1>
+                <p>Біздің мектепте оқушылар мен ата-аналарға қолдау көрсетуге дайын білікті психологтар мен әлеуметтік педагогтар жұмыс істейді.</p>
+                <h2>Байланыстар</h2>
+                <p>Мектептің жұмыс уақытында психологиялық жеңілдету кабинетіне (302 каб.) хабарласуға болады.</p>
+            </div>
         </div>
     </div>
+
+    <div class="bottom-nav">
+        <a href="parents.html" class="nav-btn">
+            <span>←</span>
+            <span class="lang-ru">Назад</span>
+            <span class="lang-kz">Артқа</span>
+        </a>
+        <a href="index.html" class="nav-btn home-btn">
+            <span class="lang-ru">На главную</span>
+            <span class="lang-kz">Басты бет</span>
+            <span>🏠</span>
+        </a>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
