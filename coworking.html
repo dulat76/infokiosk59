@@ -1,30 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Зоны саморазвития - Инфокиоск ШЛ №59</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body class="ru-mode">
+
     <header>
         <div class="logo-area">
             <div class="logo-img">№59</div>
-            <div><div class="school-name">Школа-лицей №59</div><div class="clock-box" id="clock">00:00</div></div>
+            <div>
+                <div class="school-name">Школа-лицей №59</div>
+                <div class="clock-box" id="clock">00:00</div>
+            </div>
         </div>
-        <div class="lang-btns"><button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button><button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button></div>
+        <div class="lang-btns">
+            <button id="btn-kz" onclick="setLang('kz')">ҚАЗ</button>
+            <button id="btn-ru" onclick="setLang('ru')" class="active">РУС</button>
+        </div>
     </header>
+
     <div class="main-container">
         <div class="page-header">
-            <a href="parents.html" class="nav-btn"><span>←</span> <span class="lang-ru">Назад</span><span class="lang-kz">Артқа</span></a>
-            <div class="section-title"><span class="lang-ru">Зоны саморазвития</span><span class="lang-kz">Өзін-өзі дамыту аймақтары</span></div>
-            <a href="index.html" class="nav-btn"><span class="lang-ru">Басты бет</span><span class="lang-kz">Басты бет</span> <span>🏠</span></a>
+            <div class="section-title">
+                <span class="lang-ru">Зоны саморазвития</span>
+                <span class="lang-kz">Өзін-өзі дамыту аймақтары</span>
+            </div>
         </div>
+
         <div class="content-view">
-            <h1><span class="lang-ru">Зоны саморазвития</span><span class="lang-kz">Өзін-өзі дамыту аймақтары</span></h1>
-            <p><span class="lang-ru">Информация о коворкингах (залы «Шаңырақ» и «Абай»)...</span><span class="lang-kz">Коворкингтер туралы ақпарат («Шаңырақ» және «Абай» залдары)...</span></p>
+            <div class="lang-ru">
+                <h1>Зоны саморазвития</h1>
+                <p>В школе созданы современные пространства для самостоятельной работы и творчества учащихся.</p>
+                <h2>Коворкинги</h2>
+                <ul>
+                    <li><strong>Зал «Шаңырақ»:</strong> Пространство для командной работы и обсуждений.</li>
+                    <li><strong>Зал «Абай»:</strong> Тихая зона для чтения и индивидуальных занятий.</li>
+                </ul>
+            </div>
+            <div class="lang-kz">
+                <h1>Өзін-өзі дамыту аймақтары</h1>
+                <p>Мектепте оқушылардың өзіндік жұмысы мен шығармашылығы үшін заманауи кеңістіктер құрылған.</p>
+                <h2>Коворкингтер</h2>
+                <ul>
+                    <li><strong>«Шаңырақ» залы:</strong> Командалық жұмыс пен талқылауларға арналған кеңістік.</li>
+                    <li><strong>«Абай» залы:</strong> Оқуға және жеке сабақтарға арналған тыныш аймақ.</li>
+                </ul>
+            </div>
         </div>
     </div>
+
+    <div class="bottom-nav">
+        <a href="parents.html" class="nav-btn">
+            <span>←</span>
+            <span class="lang-ru">Назад</span>
+            <span class="lang-kz">Артқа</span>
+        </a>
+        <a href="index.html" class="nav-btn home-btn">
+            <span class="lang-ru">На главную</span>
+            <span class="lang-kz">Басты бет</span>
+            <span>🏠</span>
+        </a>
+    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
